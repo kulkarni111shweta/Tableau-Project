@@ -19,7 +19,14 @@ Dashboards: Question2_Part 1a, Question2_Part 1b, Question2_Part 2 → Sheets: D
 Dashboard: Question3 → Sheets: Gdp per capita vs Unemployment Rate, Trend of 2020 Monthly Unemployment Rate vs GDP per Capita, Gantt Correlation, Map
 
 Chart Types Used: 
-Scatter with trend, dual-axis line, clustered/stacked bar, histogram/distribution, filled map, cohort-style monthly trend, Gantt timeline, KPI tiles
+- Scatter with trend
+- Dual-axis line
+- Clustered/stacked bar
+- Histogram/distribution
+- Filled map
+- Ccohort-style monthly trend
+- Gantt timeline
+- KPI tiles
 
 Data Sources & “Queries”: 
 - Connections (federated across flat files)
