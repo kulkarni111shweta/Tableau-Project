@@ -1,12 +1,12 @@
 # Tableau-Project: Pre & Post Economic Impact of COVID-19
 Five curated storylines showing how COVID-19 shifted development, policy, health outcomes, and labor markets by region and income group using LODs, correlation, z-score outliering, and parameterized thresholds.
 
-Complexity:
+## Complexity:
 - Analytics: FIXED LODs (means, stdevs, latest-by-country), z-scores for outliers, CORR() for GDP↔HDI, ratio calcs (Death/Case), parameterized wealth buckets.
 - Interactivity: parameter controls (GDPpc thresholds), click-to-filter, drill-to-detail sheets, map drilldowns.
 - Modeling: Federated connection across 4 flat files (CSV/Excel) with relationships on Country, Date (Year/Month), Income Group.
 
-Stories & Dashboards:
+## Stories & Dashboards:
 - Development vs Human Development — 2019→2020 shifts, outliers
 Dashboards: Question1_Part1 → Sheets: Correlation B/W GDP vs HDI, GDP Per Capita Vs HDI_2019/2020, HDI Components by Country, Outliers
 - Regional Impact & Health Burden — GDP/HDI vs cases/deaths by region
@@ -18,7 +18,7 @@ Dashboards: Question2_Part 1a, Question2_Part 1b, Question2_Part 2 → Sheets: D
 - Labor Markets — Unemployment vs GDPpc; monthly timelines & geography
 Dashboard: Question3 → Sheets: Gdp per capita vs Unemployment Rate, Trend of 2020 Monthly Unemployment Rate vs GDP per Capita, Gantt Correlation, Map
 
-Chart Types Used: 
+## Chart Types Used: 
 - Scatter with trend
 - Dual-axis line
 - Clustered/stacked bar
@@ -28,11 +28,11 @@ Chart Types Used:
 - Gantt timeline
 - KPI tiles
 
-Data Sources & “Queries”: 
+## Data Sources & “Queries”: 
 - Connections (federated across flat files)
 - Relationship keys (semantic model)
 - Joins through Tableau relationships over CSVs
 
-Data Transformation Tools:
+## Data Transformation Tools:
 - Python (pandas)
 - Excel 
